@@ -10,10 +10,12 @@ Aquí están los apuntes manucritos 👉🏻 [Apuntes manuscritos](./Apuntes-man
 * [Web Development Course Resources](https://www.appbrewery.co/p/web-development-course-resources/)
 * [Lorem Ipsum Generator](https://www.lipsum.com/)
 * [Funny Lorem Ipsum Generators](https://blog.prototypr.io/top-10-funny-lorem-ipsum-generators-to-make-your-design-mockups-more-beautiful-797ce0bd7dd2)
+* [Documentación Express](https://expressjs.com/)
 
 ## Notas
 
-✔ Diferencias entre Back-end y Front-end 👉🏻 [aquí](https://www.computerscience.org/bootcamps/resources/frontend-vs-backend/)
+* Diferencias entre Back-end y Front-end 👉🏻 [aquí](https://www.computerscience.org/bootcamps/resources/frontend-vs-backend/)
+* Como desplegar una App de Node.js en cPanel 👉🏻 [aquí](cPanel.md)
 
 ### Seis pasos para crear un servido Express
 
@@ -24,7 +26,7 @@ Aquí están los apuntes manucritos 👉🏻 [Apuntes manuscritos](./Apuntes-man
     O el comando `npm init -y` para que acepte todas las opciones por defecto.
 4. Instalar el paquete Express
     Ejecutando el comando `npm install express`
-    Agregar la línea `type: "module"` tal como quedó en este archivo 👉🏻 [package.json](./Backend/3.1-Express-Server/package.json)
+    Agregar la línea `type: "module"` tal como quedó en este archivo 👉🏻 [package.json](./Backend/3.1-Express-Server/package.json) para especificar que estoy utilizando ECMAScript modules (ESM) en mi proyecto. En 👉🏻 [este post](https://devcodef1.com/news/1014205/understanding-type-module-in-package-json) se explican un poco mejor las razones.
 5. Escribir la aplicación del servidor en `index.js`
 6. Inicializar el servidor
     Ejecutando el comando `node index.js` o `nodemon index.js`
@@ -43,3 +45,11 @@ En [Wikipedia](https://en.wikipedia.org/wiki/HTTP) y en [W3schools](https://www.
 3. PUT
 4. PATCH
 5. DELETE
+
+### Middleware
+
+El [middleware](https://en.wikipedia.org/wiki/Middleware) es un programa que se interpone entre las solicitudes en bruto y los métodos HTTP. Se utiliza para:
+1. Preprocesar solicitudes.
+2. Registrar solicitudes.
+3. Autenticación.
+4. Manejar errores.
