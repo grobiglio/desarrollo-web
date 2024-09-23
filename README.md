@@ -16,6 +16,8 @@ Aquí están los apuntes manucritos 👉🏻 [Apuntes manuscritos](./Apuntes-man
 
 * Diferencias entre Back-end y Front-end 👉🏻 [aquí](https://www.computerscience.org/bootcamps/resources/frontend-vs-backend/)
 * Como desplegar una App de Node.js en cPanel 👉🏻 [aquí](cPanel.md)
+* Un [servidor](https://en.wikipedia.org/wiki/Server_(computing)) es una computadora permanentemente funcionando y que tiene las aplicaciones funcionando, "escuchando" para cuando se haga una petición desde el [cliente](https://en.wikipedia.org/wiki/Client_(computing)).
+* El concepto de *routing* es imprortante. Más información 👉🏻 [aquí](Routing.md)
 
 ### Seis pasos para crear un servido Express
 
